@@ -25,7 +25,7 @@ const ResultCard = ({ id, name, thumbnail }) => {
           {name.slice(1, namelen - 1)}
         </h2>
         <button className="getBtn" onClick={getHandler}>
-          Get Reciepe
+          Get Recipe
         </button>
       </div>
       {show && results ? (
